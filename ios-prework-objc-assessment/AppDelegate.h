@@ -12,6 +12,15 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+// generateArrayOfNumbers, which returns an NSArray
+- (NSArray *)generateArrayOfNumbers;
+
+// generateArrayOfLetters, which returns an NSArray
+- (NSArray *) generateArrayOfLetters;
+
+// generateNumbersAndLettersDictionaryWithNumbers:letters:, which takes as arguments numbersArray and lettersArray and returns an NSDictionary
+- (NSDictionary *) generateNumbersAndLettersDictionaryWithNumbers:(NSArray *)numbers letters:(NSArray *) letters;
+
 /* @[@"a",
  @"b",
  @"c",
